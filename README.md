@@ -20,6 +20,8 @@
 |  2   | [10950](src/step3/Baek10950.java)  | A+B-3 |
 |  3   | [8393](src/step3/Baek8393.java)  | 합    |
 |  4   | [15552](src/step3/Baek15552.java)  | 빠른 A+B  |
+|  5   | [2741](src/step3/Baek2741.java)  | N찍기  |
+|  6   | [2742](src/step3/Baek2742.java)  | 기찍N  |
 |  7  | [11021](src/step3/Baek11021.java) | A+B-7  |
 | 8 | [11022](src/step3/Baek11022.java) | A+B-8 |
 
@@ -43,4 +45,5 @@
 |  2   | [2562](src/step4/Baek2562.java)  | 	최댓값 |
 |  3   | [2920](src/step4/Baek2920.java)  | 	음계    |
 |  4   | [2577](src/step4/Baek2577.java)  | 숫자의 개수   |
+|  5   | [3052](src/step4/Baek3052.java)  | 나머지   |
 
