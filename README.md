@@ -24,6 +24,7 @@
 |  6   | [2742](src/step3/Baek2742.java)  | 기찍N  |
 |  7  | [11021](src/step3/Baek11021.java) | A+B-7  |
 | 8 | [11022](src/step3/Baek11022.java) | A+B-8 |
+| 8 | [10871](src/step3/Baek10871.java) | x보다 작은수 |
 
 ------
 
