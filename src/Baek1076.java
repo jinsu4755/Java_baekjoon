@@ -9,7 +9,7 @@ public class Baek1076 {
         String secondColor = br.readLine();
         String thirdColor = br.readLine();
 
-        int[]
+//        int[]
 
     }
 }
