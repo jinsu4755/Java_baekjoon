@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Baek2960 {
@@ -6,8 +7,22 @@ public class Baek2960 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
-        int[] primeNum = new int[n+1];
+        boolean[] eratos = new boolean[n + 1];
+        Arrays.fill(eratos, true);
 
-        for
+        int count=0;
+
+        for (int i = 2; i <= n; i++) {
+            for (int j = i; j <= n; j += i) {
+                if(!eratos[j]) continue;
+                count++;
+                eratos[j] = false;
+                if (count == k) {
+                    System.out.println(j);
+                }
+            }
+        }
+
+
     }
 }

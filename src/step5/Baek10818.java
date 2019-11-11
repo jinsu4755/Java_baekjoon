@@ -1,5 +1,6 @@
 package step5;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Baek10818 {
@@ -12,16 +13,10 @@ public class Baek10818 {
         }
         sc.close();
 
+        Arrays.sort(arr);
         int min = arr[0];
-        int max = arr[0];
-        for (int i = 0; i < n; i++){
-            if (max < arr[i]) {
-                max = arr[i];
-            }
-            if (min > arr[i]) {
-                min = arr[i];
-            }
-        }
+        int max = arr[n - 1];
+
         System.out.println(min + " " + max);
     }
 }
